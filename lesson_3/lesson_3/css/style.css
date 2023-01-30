@@ -1,0 +1,20 @@
+@import url("reset.css");
+
+.header{
+    color: green;
+}
+.main{
+    color:blue
+}
+.Character{
+color: red;
+}
+.finish{
+    color: purple;
+}
+.info{
+    color:brown;
+}
+.footer{
+    color: blue;
+}
