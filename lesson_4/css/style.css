@@ -1,0 +1,71 @@
+@import url(reset.css);
+
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Bold.woff2") format("woff2"), url("../fonts/CircularStd-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "CircularStd";
+	src: url("../fonts/CircularStd-Book.woff2") format("woff2"), url("../fonts/CircularStd-Book.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+body{
+   font-family: 'Josefin Sans', cursive;
+   
+}
+.header{
+   text-align: center;
+   font-size: 50px;
+   margin: 10px;
+   color: grey;
+}
+.pretitle{
+   font-family: "CircularStd",serif;
+   font-weight:1000;
+   font-size: 20px;
+   font-style: oblique;
+
+   
+}
+.main{
+   font-family: 'Lobster', cursive;
+   font-size: 24px;
+   font-weight:300;
+   color:green;
+   text-decoration: underline;
+
+}
+.main-2 span{
+
+   text-align: justify;
+   color:red;
+   text-shadow: 2px 2px 5px #000;
+}
+.main-2{
+   line-height: 1.5;
+   color:blue;
+   word-spacing: 2.5px;
+}
+.main-3{
+   font-family: 'Lobster', cursive;
+   text-indent:10px;
+   font-size: 20px;
+   letter-spacing: 2px;
+
+}
+.footer{
+   font-family: "CircularStd",serif;
+   text-align: center;
+   text-decoration: underline;
+   font-size: 20px;
+   color:red;
+   margin: 20px;
+   text-shadow: 1px 1px 1px red;
+
+}
