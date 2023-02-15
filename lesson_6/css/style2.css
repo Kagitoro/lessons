@@ -1,0 +1,68 @@
+@import url("reset.css");
+
+
+
+.outline{
+    font-size: 30px;
+    outline: 5px solid red;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    max-width: 800px;
+    
+}
+
+.border{
+    font-size: 30px;
+    border: 5px dashed green;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    max-width: 800px;
+}
+.border__solid{
+    font-size: 30px;
+    border: 5px solid gray;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    max-width: 800px;
+    box-shadow: inset 0px 0px 20px 0px black
+}
+
+.opacity{
+    font-size: 30px;
+    border: 5px double blue;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    max-width: 800px;
+    opacity: 0.5;
+}
+
+.visibility{
+    font-size: 30px;
+    border: 5px dotted black;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    max-width: 800px;
+    visibility: hidden;
+}
+
+.button{
+        font-size: 30px;
+        border: 5px double purple;
+        border-radius: 100px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 15px;
+        margin-bottom: 30px;
+        max-width: 300px;
+        
+}
