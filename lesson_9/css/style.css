@@ -1,0 +1,91 @@
+@import url("reset.css");
+
+body{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+
+}
+
+.container{
+    max-width: 1270px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    
+}
+
+.block-content{
+    margin-bottom: 50px;
+    
+}
+
+.icon-block-title{
+    font-size: 50px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    margin-bottom: 15px;
+    font-weight: 700;
+
+}
+
+
+.icon-block-text span{
+    font-size: 40px;
+    color: white;
+    border: 10px solid black;
+    border-radius: 20px;
+    background-color: black;
+}
+
+.icon-block-text{
+    margin-bottom: 30px;
+    line-height: 50px;
+}
+.icon-block-image{
+    font-size: 0px;
+    
+    
+}
+.icon-block-image img{
+    font-size: 50px;
+    padding-right: 10px;
+    vertical-align: middle;
+}
+
+.content-block-title{
+    font-size: 50px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.content-block-text span{
+    font-size: 40px;
+    color: white;
+    border: 10px solid black;
+    border-radius: 20px;
+    background-color: black;
+}
+.content-block-text{
+    margin-bottom: 30px;
+    line-height: 50px;
+    margin: 0 auto;
+    vertical-align: middle;
+    
+}
+.content-image img{
+    border-radius: 20px;
+    margin:10px;
+    max-width: 100%;
+
+}
+
+.content-image img:last-child{
+    margin-bottom: 0;
+}
