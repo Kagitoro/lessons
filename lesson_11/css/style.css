@@ -1,0 +1,219 @@
+@import url("reset.css");
+
+body{
+    font-family: "Inter", sans-serif;
+	font-size: 16px;
+	background-color: #E5E5E5;
+    line-height: 1.5;
+}
+
+.wrapper{
+    overflow: clip;
+    min-height: 100%;
+}
+
+.header__container {
+    max-width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin:0 auto;
+}
+
+.header {
+    width: 100%;
+    padding-top: 29px;
+    padding-bottom: 29px;
+    
+    position: fixed;
+    left:0px;
+    top:0px;
+}
+
+
+
+.header__logo{
+    display: inline-block;
+}
+
+.menu__item{
+    display: inline-block;
+    margin-right: 35px;
+    position: relative;
+    
+    
+}
+
+
+.menu__item:hover .sub{
+    display: block;
+    
+
+}
+
+
+.menu__item:last-child{
+    
+    margin-right:0px;
+}
+
+.menu__link{
+    padding-top: 29px;
+    padding-bottom: 29px;
+}
+
+.menu__link_padding{
+    padding-right: 30px;
+    padding-left: 45px;
+    
+    
+}
+
+
+.menu__link:hover{
+    color: #3056D3;
+    
+}
+
+
+
+.menu__vector{
+    position: absolute;
+    top: 8px;
+    left:160px;
+    z-index: 15;
+
+}
+
+.menu__vector-two{
+    position: absolute;
+    top: 8px;
+    z-index: 15;
+
+}
+
+.menu{
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    margin-left: 44px;
+    
+    
+}
+
+
+.header__icons{
+    display: inline-block;
+    margin-left: 120px;
+
+    
+    
+}
+
+
+.icons__items{
+    display: inline-block;
+    position: relative;
+    margin-right: 20px;
+
+    top: 13px;
+  
+}
+
+
+
+
+.sub {
+    padding-left: 20px;
+    box-shadow: 0 0 5px rgb(0 0 0 / 30%);
+    z-index: 1;
+    width: 180px;
+    height: 275px;
+    
+    
+    border: 0.5px solid #E7E7E7;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    display: none;
+    
+}
+
+
+
+.sub__item {
+    display: inline-block;
+    padding: 10px;
+    
+    
+    
+}
+.sub__link {
+    color: #637381;
+    
+    
+    
+}
+
+
+.sub__link:hover {
+    color: #3056D3;
+    
+}
+
+.sub__vector{
+    position: absolute;
+    top: 62px;
+    right:15px ;
+}
+
+
+
+.under-sub-menu {
+}
+.sub-under-menu {
+    padding-left: 20px;
+    box-shadow: 0 0 5px rgb(0 0 0 / 30%);
+    z-index: 2;
+    width: 152px;
+    height: 650px;  
+    border: 0.5px solid #E7E7E7;
+    position: absolute;
+    top:   43px;
+    left: 180px;
+    display: none;
+    
+    
+    
+}
+.sub-under-menu__item {
+    display: inline-block;
+    padding: 10px;
+
+
+}
+.sub-under-menu__link {
+    color: #637381;
+}
+
+.sub-under-menu__link span{
+    color: black;
+}
+
+
+.sub-under-menu__link:hover {
+    color: #3056D3;
+}
+
+
+.sub__item:hover .sub-under-menu{
+    display: block;
+    
+
+    
+}
+
+
+.sub__link span{
+margin-right: 100px;
+
+}
