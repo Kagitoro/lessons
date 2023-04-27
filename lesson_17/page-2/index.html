@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Lesson_16</title>
+</head>
+<body>
+    <header></header>
+
+    <main>
+      <div class="wrapper">
+        <div class="page">
+          <div class="page__container">
+
+              <div class="page-content content">
+              <div class="page__title title title_first-margin">Shipping Address</div>
+              <form  class="form" method="POST"  action="https://jsonplaceholder.typicode.com/posts"> 
+
+              
+              <div class="form__line">
+                <label  class="form__label" for="email-01" >Email Address *</label>
+                <input required autocomplete="off" placeholder="roni_cost@example.com"  class="form__input" id="email-01" name="email" type="email">
+              </div>
+
+              <div class="form__line">
+                <label  class="form__label" for="password-01" >Password *</label>
+                <input required autocomplete="off" placeholder="******************"  class="form__input" id="password-01" name="password" type="password">
+              </div>
+
+              <div class="form__line">
+                <label  class="form__label" for="code-01" >Zip/Postal Code</label>
+                <input  autocomplete="off"  class="form__input" id="code-01" name="code" type="text">
+              </div>
+
+              <div class="form__text">You already have an account with us. Sign in or continue as guest.</div> 
+
+
+              <div class="form__login login">
+                <button   type="submit" class="login__button">login</button>
+								<a href="#" class="login__link">Forgot Your Password?</a>
+
+              </div>
+              <div class="login-linear"></div>
+              
+
+
+
+
+              <div class="form__line">
+                <label  class="form__label" for="name-01" >First Name *</label>
+                <input required autocomplete="off"  class="form__input" id="name-01" name="name" type="text">
+              </div>
+
+
+              <div class="form__line">
+                <label  class="form__label" for="last-name-01" >Last Name *</label>
+                <input required autocomplete="off"  class="form__input" id="last-name-01" name="name" type="text">
+              </div>
+
+
+
+              <div class="form__line">
+                <label  class="form__label" for="company-01" >Company</label>
+                <input  autocomplete="off"  class="form__input" id="company-01" name="company" type="text">
+              </div>
+
+
+              <div class="form__line">
+                <label  class="form__label" for="street-01" >Street Address *</label>
+                <input required autocomplete="off"  class="form__input" id="street-01" name="street" type="text">
+              </div>
+
+              <div class="form__line">
+                <label  class="form__label" for="country-01" >Country * </label>
+                <input required autocomplete="off"  class="form__input" id="country-01" name="country" type="text">
+              </div>
+
+
+              <div class="form__line">
+                <label  class="form__label" for="state-01" >State/Province * </label>
+
+                <select class="form__select">
+
+                  <option disabled selected value=""> Please select a region, state or province</option>
+
+                  <option value="Ukraine">
+                    Ukraine
+                  </option>
+
+                  <option value="USA">
+                    USA
+                  </option>
+
+                  <option value="Germany">
+                    Germany
+                  </option>
+                </select>
+                
+              </div>
+
+
+           
+              
+
+              <div class="page__title title-second title-second_margin">Shipping Methods</div>
+
+
+              <div class="title-linear"></div>
+
+              
+
+              <div class="form-radio">
+             
+
+                <div class="form-radio__line">
+                  <div class="radio">
+
+
+                    <div class="radio__item">
+                      <input checked required   class="radio__input" id="money-01"  value="5$" name="price" type="radio">
+                      <label class="radio__label" for="money-01">$5.00</label>
+
+                      <div class="radio__content content-radio">
+                        <div class="content-radio-text">Fixed</div>
+                        <div class="content-radio-text">Flat Rate</div>
+                      </div>
+                    </div>
+
+
+                    <div class="radio-linear"></div>
+
+
+                    <div class="button-block">
+                    <div class="radio__item radio__item_bottom-magrin">
+                      <input checked class="radio__input" id="money-02" required  name="price" value="10$" type="radio">
+                      <label class="radio__label" for="money-02">$10.00</label>
+
+
+                      <div class="radio__content content-radio">
+                        <div class="content-radio-text">Table Rate</div>
+                        <div class="content-radio-text">Best Way</div>
+                      </div>
+
+                    </div>
+                   
+
+
+                    
+                    </div>
+                  
+                  
+                </div> 
+
+                  <div class="form__button button-form">
+                    <button a href="design.html"  type="submit" class="button-form__next">Next</button>
+                     <a href="#" class="button-form__back">Back</a>
+                  </div>
+                </div>    
+              </div>
+                        
+
+                </form>
+              </div>
+            </div> <!-- Кінець container  -->
+
+
+         </div> <!-- Кінець page  -->
+
+
+
+
+
+
+              <!-- Next-page -->
+
+
+
+              <div class="next-page">
+                <div class="next-page__container">
+                  <div class="next-page__content content-next-page">
+
+                    <div class="content-next-page__title"><h2>Billing Details</h2></div>
+
+
+                    <form  class="content-next-page__form form-content" method="POST"  action="https://jsonplaceholder.typicode.com/posts"> 
+
+                      <div class="form-content__line">
+
+                        <input required autocomplete="off" placeholder="First name*"  class="form-content__input" id="first-name-02" name="first-name" type="text">
+
+                        <input required autocomplete="off" placeholder="Last name*"  class="form-content__input" id="last-name-02" name="last-name" type="text">
+                      </div>
+
+                      <div class="form-content__line">
+
+                        <input required autocomplete="off" placeholder="Address*"  class="form-content__input" id="adress-01" name="adress-01" type="text">
+
+                        <input  autocomplete="off" placeholder="Address line 2"  class="form-content__input" id="adress-02" name="adress-02" type="text">
+                      </div>
+
+
+                      <div class="form-content__line">
+
+                        <input required autocomplete="off" placeholder="Country*"  class="form-content__input" id="country-02" name="country-02" type="text">
+
+                        <input required autocomplete="off" placeholder="City/Town*"  class="form-content__input" id="city-02" name="city-02" type="text">
+                      </div>
+
+
+                      <div class="form-content__line">
+
+                        <input required autocomplete="off" placeholder="Postcode / ZIP*"  class="form-content__input" id="code-02" name="code-one" type="tel">
+
+                        <input required autocomplete="off" placeholder="Phone*"  class="form-content__input" id="phone-01" name="phone" type="tel">
+                      </div>
+
+
+                      <div class="form-content__line">
+
+                        <input required autocomplete="off" placeholder="Postcode / ZIP*"  class="form-content__input" id="code-03" name="code-two" type="tel">
+
+                        <input required autocomplete="off" placeholder="Phone*"  class="form-content__input" id="phone-02" name="phone" type="tel">
+                      </div>
+
+                      <div class="form-content__line">
+
+                        <textarea class="form-content__area" name="additional" placeholder="Additional information"></textarea>
+
+                      </div>
+
+
+                      <div class="forms-block block-forms">
+
+                        <div class="block-forms__item">
+                          <input checked  class="block-forms__input" id="creative-01"  value="yes" name="create-account" type="checkbox">
+                          <label class="block-forms__label" for="creative-01">Create Account</label>
+    
+                          
+                        </div>
+    
+
+                        <div class="block-forms__item">
+                          <input checked class="block-forms__input" id="ship" name="ship" value="yes" type="checkbox">
+                          <label class="block-forms__label" for="ship">Ship to a different address?</label>
+
+                        </div>
+                      
+                      </div>
+
+
+                      <div class="apply-coupon">
+                        <h2 class="apply-coupon__title apply-coupon__title_margin">Apply Coupon to get discount</h2>
+                        <div class="apply-coupon__discount coupon-item">
+                          <input class="coupon-item__input"   type="text" name="coupon" placeholder="Coupon code" >
+                          <button type="submit" class="coupon-item__apply">Apply Code</button>
+                        </div>
+
+                      </div>
+                      
+
+
+
+                    </form>
+
+                  </div> <!-- Кінець content-next-page  -->
+                  
+
+                </div>
+              </div>
+
+
+              
+              
+      </div><!-- Кінець wrapper  -->
+    </main>
+    <footer></footer>
+  
+</body>
+</html>
