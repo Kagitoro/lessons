@@ -1,0 +1,12 @@
+.title {
+  font-size: 25px;
+  line-height: 1.6; /* 40/25 */
+  font-weight: 700;
+  color: #f8f9fa;
+}
+.title_black {
+  font-size: 25px;
+  line-height: 1.6; /* 40/25 */
+  font-weight: 700;
+  color: #212529;
+}
